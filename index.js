@@ -8,7 +8,7 @@ const server = http.createServer();
 const app = express(server);
 const __dirname = process.cwd();
 const bareServer = createBareServer('/bare/');
-const PORT = 8080;
+const PORT = 8000;
 
 app.use(express.json());
 app.use(express.urlencoded({ extended: true }));
